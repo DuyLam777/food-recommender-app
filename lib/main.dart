@@ -1,6 +1,7 @@
 import 'package:fitness/pages/home.dart';
 import 'package:flutter/material.dart';
 import 'pages/recipes.dart';
+import 'pages/fridgePage.dart';
 
 void main() {
   runApp(const MyApp());
@@ -20,9 +21,8 @@ class MyApp extends StatelessWidget {
       routes: {
         '/': (context) => HomePage(),
         '/recipes': (context) => RecipesPage(),
-        // '/fridge': (context) => FridgePage(),
-      }
+        '/fridge': (context) => FridgePage(),
+      },
     );
   }
 }
-
